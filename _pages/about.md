@@ -1,56 +1,88 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人简介"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+时欣利，东南大学副教授/博士生导师，数学学院-江苏国家应用数学中心成员，先后在东南大学计算机软件学院、数学学院和自动化学院获的学士、硕士和博士学位。目前为IEEE Senior Member，中国自动化学会高级会员，曾入选江苏省“双创博士”、江苏省科协青年科技人才托举工程（人工智能学会）、东南大学首届“小米青年学者”， 获得东南大学首批“至善特岗专项”项目，获得东南大学青年教师授课竞赛二等奖，博士论文荣获江苏省优秀博士学位论文。主要从事分布式学习、多智能体强化学习、MPC等方向的研究工作，发表SCI论文50余篇, IEEE(/JAS)汇刊30余篇，其中以第一或通信作者在Automatica, IEEE TAC、TCyber、TSMCS、TII、TNNLS、TCNS、TSG等国际权威期刊上发表论文30余篇，授权/受理专利10余项, 担任多个国际SCI期刊审稿人，主持3项国家级项目，1项江苏省项目，参与项目包括科技部重点研发项目、国家自然科学基金重点、面上项目等。
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+欢迎对网络科学、机器学习和群智智能感兴趣的研究生提前邮件联系！
 
-A data-driven personal website
+邮箱：xinli_shi@seu.edu.cn
+
+
+教育背景
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+* 2018/01-2019.01, 皇家墨尔本理工大学，工学院，联合培养博士，导师：余星火 教授；
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+* 2016/03-2019.06, 东南大学，自动化学院，博士，导师：曹进德 教授；
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+* 2013/09-2016/03, 东南大学，数学学院，硕士，导师：曹进德 教授；
 
-Getting started
+* 2009/09-2013/06, 东南大学，软件学院，本科。
+
+学术兼职
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* IEEE Senior Member
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* 中国自动化学会高级会员
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* 中国指挥与控制学会高级会员
 
-**Markdown generator**
+* 中国指挥与控制学会(CICC)青工委委员
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+* CICC网络科学与工程专委会委员
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+研究领域
+======
+复杂网络，群体智能学习及优化，联邦学习/强化学习，智能电网/交通。
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+研究课题
+======
+* 开放对抗网络下高效分布式非凸复合优化算法研究，国家自然科学基金面上项目，2025.1-2028.12，负责人；
+
+* 沥青路面结构设计推断系统与智能优化设计软件平台开发，科技部重点研发计划课题，2020.12-2025.11，负责人；
+
+* 网络约束和通信受限下有限时间分布式优化算法及应用研究，国家自然科学基金青年项目，结题，2021.1-2023.12，负责人；
+
+* 网络受限环境下有限时间分布式优化及应用研究，江苏省自然科学基金青年项目，优秀结题，负责人；
+
+* 复杂网络分布式协同计算和优化算法研究，东南大学教师科研启动项目，结题，负责人；
+
+* 基于群体智能的分布式优化理论、方法及应用研究,国家自然科学基金重点项目, 结题，参与；
+
+* 具有切换有向通信拓扑的多自主体系统分布式控制与优化问题研究，国家自然科学基金面上项目, 结题，参与；
+
+* 多智能体最优合作调控及其在电力系统中应用，国家自然科学基金面上项目，结题，参与。
+
+
+奖励与荣誉
+======
+2015年，东南大学硕士研究生国家奖学金；
+
+2018年，东南大学博士研究生国家奖学金；
+
+2020年，东南大学优秀博士学位论文;
+
+2020年，江苏省优秀博士学位论文; 
+
+2020年，江苏省"双创博士" ; 
+
+2023年，东南大学青年教师授课竞赛二等奖(9/219)；
+
+2023年，江苏省科协青年科技人才托举工程（人工智能学会）；
+
+2024年，澳洲研究理事会(ARC) DECRA;
+
+2025年，江苏省自动化学会青年科技奖。
+
+课程信息
+======
+《离散数学》
+
+
